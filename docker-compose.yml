@@ -18,7 +18,7 @@ services:
       - "8000:8000"
     environment:
       - MONGODB_URL=mongodb://mongo:27017
-      - DB_NAME=skillbytes
+      - DB_NAME=preppulse
     depends_on:
       - mongo
 
