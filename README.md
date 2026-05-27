@@ -2,8 +2,6 @@
 
 A WhatsApp-style quiz application built with React, FastAPI, and MongoDB.
 
-**Walkthrough:** [Loom Video](#) ← *add link after recording*
-
 ---
 
 ## Tech Stack
