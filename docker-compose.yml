@@ -3,7 +3,7 @@ version: "3.9"
 services:
   mongo:
     image: mongo:7
-    container_name: skillbytes_mongo
+    container_name: preppulse_mongo
     restart: unless-stopped
     ports:
       - "27017:27017"
@@ -12,7 +12,7 @@ services:
 
   backend:
     build: ./backend
-    container_name: skillbytes_backend
+    container_name: preppulse_backend
     restart: unless-stopped
     ports:
       - "8000:8000"
@@ -24,7 +24,7 @@ services:
 
   frontend:
     build: ./frontend
-    container_name: skillbytes_frontend
+    container_name: preppulse_frontend
     restart: unless-stopped
     ports:
       - "3000:80"
